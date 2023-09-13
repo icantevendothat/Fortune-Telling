@@ -1,0 +1,62 @@
+html, body {
+  font-family: 'Josefin Sans', sans-serif;;
+  background-color: rgb(249, 245, 191);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  color: rgb(249, 245, 191);
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  margin: 0 10px; 
+}
+
+.fortune-teller{
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+}
+
+.button-works{
+  text-align: center;
+  padding: 30px;
+}
+
+.button{
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
+
+@keyframes scrollImage {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+.scrolling-image {
+  position: absolute;
+  top: 50%;
+  animation: scrollImage 9s linear infinite;
+  padding: 150px;
+}
